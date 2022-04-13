@@ -47,5 +47,21 @@ int main() {
     cout << "x " << quantity << endl;
     cout << "Your total is: $" << total << endl;
     cout << endl;
+    int total = 1;
+    total++;//increment
+    total--;//decrement
+    cout << total;
+    int temperature;
+    cout << "Please enter the temperature(C): ";
+    cin << "temperature";
+    if (temperature > 30) {
+    cout << "It is HOT outside";
+    }
+    else if (temperature > 30) {
+    cout << "It is COLD outside";
+    }
+    else {
+    cout << "It is WARM outside";
+    }
     return 0;
 }
