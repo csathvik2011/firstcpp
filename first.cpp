@@ -63,5 +63,6 @@ int main() {
     else {
     cout << "It is WARM outside";
     }
+    cout << endl;
     return 0;
 }
