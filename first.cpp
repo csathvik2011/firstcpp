@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 //This is a comment
 /*Same as this
@@ -21,5 +21,31 @@ int main() {
     cout << "Status: " << status << endl;
     cout << "New: " << model << endl;
     cout << "Availability: " << for_sale << endl;
+    string name;
+    cout << "Please enter your name: ";
+    getline(cin,name);
+    cout << "Welcome " << name;
+    int age;
+    cout << "Please enter your age: ";
+    cin << age;
+    cout << "Your age is " << age;
+    cout << endl;
+    string item;
+    double price;
+    int quantity;
+    double total;
+    cout << "Which item do you want to buy?";
+    getline(cin,item);
+    cout << "What is the price for each? $";
+    cin >> price;
+    cout << "How many do you want to buy?: ";
+    cin >> quantity;
+    cout >> endl;
+    total = price*quantity;
+    cout << "item: " << item << endl;
+    cout << "price: " << price << endl;
+    cout << "x " << quantity << endl;
+    cout << "Your total is: $" << total << endl;
+    cout << endl;
     return 0;
 }
