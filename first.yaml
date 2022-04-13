@@ -1,0 +1,15 @@
+yaml.load(This is my first yaml page)
+>> 'This is my first yaml page'
+yaml.load('''
+- eggs
+- bread
+- pizza
+''')
+['eggs','bread','pizza']
+--- # Favorite movies
+- Harry Potter
+- RRR
+- Despicable me
+- {name: Sathvik, age: 11}
+- name: Sathvik
+#This is a comment I guess
