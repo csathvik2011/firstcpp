@@ -63,5 +63,48 @@ int main() {
     else {
     cout << "It is WARM outside";
     }
+    int month;
+    cout << "Enter the month (1-12):"
+    cin >> monthl;
+    switch (month) {
+        case 1:
+        cout << "Its Jan.";
+        break;
+        case 2:
+        cout << "Its Feb.";
+        break;
+        case 3:
+        cout << "Its Mar.";
+        break;
+        case 4:
+        cout << "Its Apr.";
+        break;
+        case 5:
+        cout << "Its May";
+        break;
+        case 6:
+        cout << "Its Jun.";
+        break;
+        case 7:
+        cout << "Its Jul.";
+        break;
+        case 8:
+        cout << "Its Aug.";
+        break;
+        case 9:
+        cout << "Its Sep.";
+        break;
+        case 10:
+        cout << "Its Oct.";
+        break;
+        case 11:
+        cout << "Its Nov.";
+        break;
+        case 12:
+        cout << "Its Dec.";
+        break;
+        default:
+            cout << "Enter a correct number";
+    }
     cout << endl;
     return 0;
